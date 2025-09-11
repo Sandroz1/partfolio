@@ -567,7 +567,6 @@ function App() {
               <Typography variant="h6" sx={{ color: "#B0B0B0", mb: 2 }}>
                 Моя роль и подход:
               </Typography>
-<<<<<<< Updated upstream
               <Box sx={{ pl: 2 }}>
                 <Typography
                   variant="body1"
@@ -612,98 +611,6 @@ function App() {
                   также участвовал углубленно в создании фронтенда, простого
                   бэкенда и прототипов интерфейса в Figma.
                 </Typography>
-=======
-              <Box sx={{ pl: { xs: 1, sm: 2 } }}>
-                <Box sx={{ mb: 2 }}>
-                  <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1, mb: 1 }}>
-                    <Group sx={{ color: "#2196F3", fontSize: "1.2rem", mt: 0.2, flexShrink: 0 }} />
-                    <Box>
-                      <Typography
-                        variant="body1"
-                        sx={{
-                          color: "#E0E0E0",
-                          fontWeight: "bold",
-                          mb: 0.5,
-                          fontSize: { xs: "0.9rem", sm: "1rem" }
-                        }}
-                      >
-                        Командная работа:
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        sx={{
-                          color: "#E0E0E0",
-                          lineHeight: 1.6,
-                          fontSize: { xs: "0.85rem", sm: "0.9rem" },
-                          pl: { xs: 0, sm: 1 }
-                        }}
-                      >
-                        Участие в планировании задач, коммуникации и поддержке команды; краткий опыт координации как тимлида (≈1 месяц) в студенческом проекте.
-                      </Typography>
-                    </Box>
-                  </Box>
-                </Box>
-
-                <Box sx={{ mb: 2 }}>
-                  <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1, mb: 1 }}>
-                    <Code sx={{ color: "#2196F3", fontSize: "1.2rem", mt: 0.2, flexShrink: 0 }} />
-                    <Box>
-                      <Typography
-                        variant="body1"
-                        sx={{
-                          color: "#E0E0E0",
-                          fontWeight: "bold",
-                          mb: 0.5,
-                          fontSize: { xs: "0.9rem", sm: "1rem" }
-                        }}
-                      >
-                        Разработка:
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        sx={{
-                          color: "#E0E0E0",
-                          lineHeight: 1.6,
-                          fontSize: { xs: "0.85rem", sm: "0.9rem" },
-                          pl: { xs: 0, sm: 1 }
-                        }}
-                      >
-                        Создание клиентской части на React/TypeScript.
-                      </Typography>
-                    </Box>
-                  </Box>
-                </Box>
-
-                <Box sx={{ mb: 2 }}>
-                  <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1, mb: 1 }}>
-                    <Psychology sx={{ color: "#2196F3", fontSize: "1.2rem", mt: 0.2, flexShrink: 0 }} />
-                    <Box>
-                      <Typography
-                        variant="body1"
-                        sx={{
-                          color: "#E0E0E0",
-                          fontWeight: "bold",
-                          mb: 0.5,
-                          fontSize: { xs: "0.9rem", sm: "1rem" }
-                        }}
-                      >
-                        Полный цикл:
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        sx={{
-                          color: "#E0E0E0",
-                          lineHeight: 1.6,
-                          fontSize: { xs: "0.85rem", sm: "0.9rem" },
-                          pl: { xs: 0, sm: 1 }
-                        }}
-                      >
-                        Для понимания всего процесса, также участвовал в создании простого бэкенда и умею писать базовый код на Django REST Framework (эндпоинты, сериализаторы), а также делал прототипы интерфейса в Figma.
-                      </Typography>
-                    </Box>
-                  </Box>
-                </Box>
->>>>>>> Stashed changes
               </Box>
             </Box>
 

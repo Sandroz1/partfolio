@@ -546,7 +546,7 @@ function App() {
                   variant="h6"
                   sx={{ color: "#E0E0E0", fontWeight: "bold" }}
                 >
-                  Фронтенд‑разработчик (учебные проекты)
+                  Фронтенд‑разработчик
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: "#B0B0B0" }}>
                   2024-2025
@@ -564,53 +564,100 @@ function App() {
             </Typography>
 
             <Box sx={{ mb: 3 }}>
-              <Typography variant="h6" sx={{ color: "#B0B0B0", mb: 2 }}>
+              <Typography 
+                variant="h6" 
+                sx={{ 
+                  color: "#B0B0B0", 
+                  mb: 2,
+                  fontSize: { xs: "1rem", sm: "1.1rem" },
+                  px: { xs: 1, sm: 0 }
+                }}
+              >
                 Моя роль и подход:
               </Typography>
-              <Box sx={{ pl: 2 }}>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    color: "#E0E0E0",
-                    mb: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 1,
+              <Box sx={{ pl: { xs: 1, sm: 2 } }}>
+                {/* Лидерство / Командная работа */}
+                <Box 
+                  sx={{ 
+                    display: "grid",
+                    gridTemplateColumns: { xs: "auto 1fr", sm: "auto 1fr" },
+                    alignItems: "start",
+                    columnGap: { xs: 1, sm: 1.5 },
+                    rowGap: 0.5,
+                    mb: 1.5
                   }}
                 >
-                  <Group sx={{ color: "#2196F3", fontSize: "1.2rem" }} />
-                  <strong>Лидерство:</strong> Организация workflow команды,
-                  распределение задач по силам участников.
-                </Typography>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    color: "#E0E0E0",
-                    mb: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 1,
+                  <Group sx={{ color: "#2196F3", fontSize: { xs: "1rem", sm: "1.2rem" }, mt: 0.2 }} />
+                  <Box>
+                    <Typography 
+                      variant="body1" 
+                      sx={{ color: "#E0E0E0", fontWeight: "bold", mb: 0.3, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+                    >
+                      Командная работа:
+                    </Typography>
+                    <Typography 
+                      variant="body2" 
+                      sx={{ color: "#E0E0E0", lineHeight: 1.7, fontSize: { xs: "0.85rem", sm: "0.95rem" } }}
+                    >
+                      Участие в планировании, коммуникации и поддержке команды; краткий опыт координации как тимлида (≈1 месяц) именно в учебном студенческом проекте.
+                    </Typography>
+                  </Box>
+                </Box>
+
+                {/* Разработка */}
+                <Box 
+                  sx={{ 
+                    display: "grid",
+                    gridTemplateColumns: { xs: "auto 1fr", sm: "auto 1fr" },
+                    alignItems: "start",
+                    columnGap: { xs: 1, sm: 1.5 },
+                    rowGap: 0.5,
+                    mb: 1.5
                   }}
                 >
-                  <Code sx={{ color: "#2196F3", fontSize: "1.2rem" }} />
-                  <strong>Разработка:</strong> Создание клиентской части на
-                  React/TypeScript.
-                </Typography>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    color: "#E0E0E0",
-                    mb: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 1,
+                  <Code sx={{ color: "#2196F3", fontSize: { xs: "1rem", sm: "1.2rem" }, mt: 0.2 }} />
+                  <Box>
+                    <Typography 
+                      variant="body1" 
+                      sx={{ color: "#E0E0E0", fontWeight: "bold", mb: 0.3, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+                    >
+                      Разработка:
+                    </Typography>
+                    <Typography 
+                      variant="body2" 
+                      sx={{ color: "#E0E0E0", lineHeight: 1.7, fontSize: { xs: "0.85rem", sm: "0.95rem" } }}
+                    >
+                      Создание клиентской части на React/TypeScript.
+                    </Typography>
+                  </Box>
+                </Box>
+
+                {/* Полный цикл */}
+                <Box 
+                  sx={{ 
+                    display: "grid",
+                    gridTemplateColumns: { xs: "auto 1fr", sm: "auto 1fr" },
+                    alignItems: "start",
+                    columnGap: { xs: 1, sm: 1.5 },
+                    rowGap: 0.5
                   }}
                 >
-                  <Psychology sx={{ color: "#2196F3", fontSize: "1.2rem" }} />
-                  <strong>Полный цикл:</strong> Для понимания всего процесса,
-                  также участвовал углубленно в создании фронтенда, простого
-                  бэкенда и прототипов интерфейса в Figma.
-                </Typography>
+                  <Psychology sx={{ color: "#2196F3", fontSize: { xs: "1rem", sm: "1.2rem" }, mt: 0.2 }} />
+                  <Box>
+                    <Typography 
+                      variant="body1" 
+                      sx={{ color: "#E0E0E0", fontWeight: "bold", mb: 0.3, fontSize: { xs: "0.95rem", sm: "1rem" } }}
+                    >
+                      Полный цикл:
+                    </Typography>
+                    <Typography 
+                      variant="body2" 
+                      sx={{ color: "#E0E0E0", lineHeight: 1.7, fontSize: { xs: "0.85rem", sm: "0.95rem" } }}
+                    >
+                      Участие в создании фронтенда, простого бэкенда и прототипов в Figma.
+                    </Typography>
+                  </Box>
+                </Box>
               </Box>
             </Box>
 

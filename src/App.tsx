@@ -567,52 +567,6 @@ function App() {
               <Typography variant="h6" sx={{ color: "#B0B0B0", mb: 2 }}>
                 Моя роль и подход:
               </Typography>
-<<<<<<< Updated upstream
-              <Box sx={{ pl: 2 }}>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    color: "#E0E0E0",
-                    mb: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 1,
-                  }}
-                >
-                  <Group sx={{ color: "#2196F3", fontSize: "1.2rem" }} />
-                  <strong>Лидерство:</strong> Организация workflow команды,
-                  распределение задач по силам участников.
-                </Typography>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    color: "#E0E0E0",
-                    mb: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 1,
-                  }}
-                >
-                  <Code sx={{ color: "#2196F3", fontSize: "1.2rem" }} />
-                  <strong>Разработка:</strong> Создание клиентской части на
-                  React/TypeScript.
-                </Typography>
-                <Typography
-                  variant="body1"
-                  sx={{
-                    color: "#E0E0E0",
-                    mb: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 1,
-                  }}
-                >
-                  <Psychology sx={{ color: "#2196F3", fontSize: "1.2rem" }} />
-                  <strong>Полный цикл:</strong> Для понимания всего процесса,
-                  также участвовал углубленно в создании фронтенда, простого
-                  бэкенда и прототипов интерфейса в Figma.
-                </Typography>
-=======
               <Box sx={{ pl: { xs: 1, sm: 2 } }}>
                 <Box sx={{ mb: 2 }}>
                   <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1, mb: 1 }}>
@@ -703,7 +657,6 @@ function App() {
                     </Box>
                   </Box>
                 </Box>
->>>>>>> Stashed changes
               </Box>
             </Box>
 

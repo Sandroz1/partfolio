@@ -319,6 +319,16 @@ function App() {
                 >
                   Frontend-разработчик • React/TypeScript • Готов к собеседованию
                 </Typography>
+                <Typography
+                  variant="subtitle1"
+                  sx={{
+                    color: "#9FB3C8",
+                    mb: 2,
+                    fontSize: { xs: "0.95rem", md: "1.05rem" },
+                  }}
+                >
+                  Студент 2 курса, Алабуга Политтех
+                </Typography>
               </motion.div>
 
               {/* Contact Info */}

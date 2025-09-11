@@ -219,13 +219,14 @@ function App() {
   const skills = [
     { name: "HTML5", icon: <Code />, color: "#E34F26" },
     { name: "CSS3", icon: <Code />, color: "#1572B6" },
-    { name: "JavaScript", icon: <Code />, color: "#F7DF1E" },
-    { name: "React", icon: <Code />, color: "#61DAFB" },
-    { name: "Python", icon: <Code />, color: "#3c00ffff" },
+    { name: "JavaScript (ES6+)", icon: <Code />, color: "#F7DF1E" },
     { name: "TypeScript", icon: <Code />, color: "#3178C6" },
-    { name: "Rest", icon: <Code />, color: "#339933" },
-    { name: "TeamStorm", icon: <Code />, color: "#000000" },
-    { name: "Figma", icon: <Code />, color: "#F24E1E" },
+    { name: "React", icon: <Code />, color: "#61DAFB" },  
+    { name: "React Router", icon: <Code />, color: "#CA4245" },
+    { name: "Vite", icon: <Code />, color: "#646CFF" },
+    { name: "Tailwind CSS", icon: <Code />, color: "#38BDF8" },
+    { name: "REST API (Fetch/Axios)", icon: <Code />, color: "#00BCD4" },
+    { name: "Django REST Framework (базово)", icon: <Code />, color: "#092E20" },
   ];
 
   const softSkills = [
@@ -233,30 +234,25 @@ function App() {
     "Коммуникация",
     "Быстрое обучение",
     "Работа в условиях неопределенности",
-    "Командное лидерство",
+    "Командная работа",
     "Ответственность",
   ];
 
   const careerInterests = [
     {
-      title: "IT-рекрутинг",
+      title: "Архитектура React-приложений",
       description:
-        "Глубокое понимание стека технологий поможет точно оценивать кандидатов-разработчиков",
+        "Фиче‑слайсы, переиспользуемые компоненты, clean-code, контроль сайд‑эффектов и кеширование данных.",
     },
     {
-      title: "Закупки в IT/Digital-сфере",
+      title: "Производительность и UX",
       description:
-        "Технический бэкграунд поможет в анализе поставщиков технологических решений",
+        "Мемоизация, разделение кода, виртуализация списков, плавные анимации без потери FPS.",
     },
     {
-      title: "Управление проектами",
+      title: "Инфраструктура фронтенда",
       description:
-        "Способность видеть проект и со стороны команды, и со стороны продукта",
-    },
-    {
-      title: "Работа с клиентами",
-      description:
-        "Умение понимать боль клиента и предлагать solutions, подкрепленные техническим пониманием",
+        "Конфигурация Vite/ESLint/Prettier",
     },
   ];
 
@@ -321,7 +317,7 @@ function App() {
                     fontSize: { xs: "1.1rem", md: "1.5rem" },
                   }}
                 >
-                  Frontend-разработчик • Team Lead • Карьерные ориентиры
+                  Frontend-разработчик • React/TypeScript • Готов к собеседованию
                 </Typography>
               </motion.div>
 
@@ -550,7 +546,7 @@ function App() {
                   variant="h6"
                   sx={{ color: "#E0E0E0", fontWeight: "bold" }}
                 >
-                  Фронтенд-разработчик / Team Lead учебных проектов
+                  Фронтенд‑разработчик (учебные проекты)
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: "#B0B0B0" }}>
                   2024-2025
@@ -562,14 +558,16 @@ function App() {
               variant="body1"
               sx={{ color: "#E0E0E0", mb: 3, lineHeight: 1.8 }}
             >
-              Руководство командой студентов над созданием полноценного
-              веб-приложения "Бронирование".
+              Разрабатывал и поддерживал SPA на React/TypeScript: роутинг (React Router), формы и валидация,
+              оптимизация рендеринга, сборка на Vite, стилизация Tailwind/MUI. Интеграция с REST API
+              через Fetch/Axios.
             </Typography>
 
             <Box sx={{ mb: 3 }}>
               <Typography variant="h6" sx={{ color: "#B0B0B0", mb: 2 }}>
                 Моя роль и подход:
               </Typography>
+<<<<<<< Updated upstream
               <Box sx={{ pl: 2 }}>
                 <Typography
                   variant="body1"
@@ -614,6 +612,98 @@ function App() {
                   также участвовал углубленно в создании фронтенда, простого
                   бэкенда и прототипов интерфейса в Figma.
                 </Typography>
+=======
+              <Box sx={{ pl: { xs: 1, sm: 2 } }}>
+                <Box sx={{ mb: 2 }}>
+                  <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1, mb: 1 }}>
+                    <Group sx={{ color: "#2196F3", fontSize: "1.2rem", mt: 0.2, flexShrink: 0 }} />
+                    <Box>
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          color: "#E0E0E0",
+                          fontWeight: "bold",
+                          mb: 0.5,
+                          fontSize: { xs: "0.9rem", sm: "1rem" }
+                        }}
+                      >
+                        Командная работа:
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          color: "#E0E0E0",
+                          lineHeight: 1.6,
+                          fontSize: { xs: "0.85rem", sm: "0.9rem" },
+                          pl: { xs: 0, sm: 1 }
+                        }}
+                      >
+                        Участие в планировании задач, коммуникации и поддержке команды; краткий опыт координации как тимлида (≈1 месяц) в студенческом проекте.
+                      </Typography>
+                    </Box>
+                  </Box>
+                </Box>
+
+                <Box sx={{ mb: 2 }}>
+                  <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1, mb: 1 }}>
+                    <Code sx={{ color: "#2196F3", fontSize: "1.2rem", mt: 0.2, flexShrink: 0 }} />
+                    <Box>
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          color: "#E0E0E0",
+                          fontWeight: "bold",
+                          mb: 0.5,
+                          fontSize: { xs: "0.9rem", sm: "1rem" }
+                        }}
+                      >
+                        Разработка:
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          color: "#E0E0E0",
+                          lineHeight: 1.6,
+                          fontSize: { xs: "0.85rem", sm: "0.9rem" },
+                          pl: { xs: 0, sm: 1 }
+                        }}
+                      >
+                        Создание клиентской части на React/TypeScript.
+                      </Typography>
+                    </Box>
+                  </Box>
+                </Box>
+
+                <Box sx={{ mb: 2 }}>
+                  <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1, mb: 1 }}>
+                    <Psychology sx={{ color: "#2196F3", fontSize: "1.2rem", mt: 0.2, flexShrink: 0 }} />
+                    <Box>
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          color: "#E0E0E0",
+                          fontWeight: "bold",
+                          mb: 0.5,
+                          fontSize: { xs: "0.9rem", sm: "1rem" }
+                        }}
+                      >
+                        Полный цикл:
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          color: "#E0E0E0",
+                          lineHeight: 1.6,
+                          fontSize: { xs: "0.85rem", sm: "0.9rem" },
+                          pl: { xs: 0, sm: 1 }
+                        }}
+                      >
+                        Для понимания всего процесса, также участвовал в создании простого бэкенда и умею писать базовый код на Django REST Framework (эндпоинты, сериализаторы), а также делал прототипы интерфейса в Figma.
+                      </Typography>
+                    </Box>
+                  </Box>
+                </Box>
+>>>>>>> Stashed changes
               </Box>
             </Box>
 
@@ -666,16 +756,15 @@ function App() {
                 fontSize: { xs: "1.5rem", md: "2rem" },
               }}
             >
-              Карьерные интересы и цели
+              Фокус фронтенд‑разработки
             </Typography>
 
             <Typography
               variant="body1"
               sx={{ color: "#E0E0E0", mb: 3, lineHeight: 1.8 }}
             >
-              Мой опыт в разработке — это не только про технологии, но и про
-              выстраивание процессов, анализ задач и командную работу. Я ищу
-              возможность применять этот комплексный подход в новых сферах.
+              Цель — роль Frontend (React/TypeScript). Сильные стороны: чистая архитектура,
+              внимательность к UX, производительность, поддерживаемость кода.
             </Typography>
 
             <Box
